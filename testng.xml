@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Atomations">
+	<test thread-count="5" name="Personal projects">
+			<parameter name="a" value="10"></parameter>
+			<parameter name="b" value="120"></parameter>
+			<parameter name="name" value="Sarvesh"></parameter>
+		<classes>
+			<class name="TestNG.SwagLabLoginTest">
+				 <methods>
+					<include name="loginWithlocked_out_user"></include>
+					<exclude name="loginWithperformance_glitch_user"></exclude>
+				</methods>
+			</class>
+			<class name="TestNG.TestNgKeywords">
+				<methods>
+					<exclude name="test5"></exclude>
+				</methods>
+			</class>
+			<class name="testNgFacebookAccountCreate.FacebookLoginPageTest" />
+			<class name="testNGPersonalProject.FacebookLoginTest" />
+			<class name="TestNG.AddToCart" />
+			<class name="testNgFacebookAccountCreate.FacebookRagesterPageTest" />
+		</classes>
+	</test> <!--
+	Test -->
+	
+	
+	<test name="regression">
+	<classes>
+		<class name="testNgFacebookAccountCreate.FacebookRagesterPageTest"></class>
+		<class name="testNGPersonalProject.FacebookLoginTest"></class>
+	</classes>
+</test>
+</suite> <!--
+Suite -->

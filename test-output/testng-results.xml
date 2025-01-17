@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-21T23:30:04 IST" name="Atomations" finished-at="2024-05-21T23:30:36 IST" duration-ms="32362">
+    <groups>
+    </groups>
+    <test started-at="2024-05-21T23:30:04 IST" name="Personal projects" finished-at="2024-05-21T23:30:27 IST" duration-ms="22642">
+      <class name="TestNG.TestNgKeywords">
+        <test-method signature="test2(int)[pri:-2, instance:TestNG.TestNgKeywords@702657cc]" started-at="2024-05-21T23:30:10 IST" name="test2" finished-at="2024-05-21T23:30:10 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test1(int,int,java.lang.String)[pri:-1, instance:TestNG.TestNgKeywords@702657cc]" started-at="2024-05-21T23:30:10 IST" name="test1" finished-at="2024-05-21T23:30:10 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sarvesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test6()[pri:0, instance:TestNG.TestNgKeywords@702657cc]" started-at="2024-05-21T23:30:10 IST" name="test6" finished-at="2024-05-21T23:30:10 IST" depends-on-methods="TestNG.TestNgKeywords.test1" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test3()[pri:1, instance:TestNG.TestNgKeywords@702657cc]" started-at="2024-05-21T23:30:10 IST" name="test3" finished-at="2024-05-21T23:30:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test3()[pri:1, instance:TestNG.TestNgKeywords@702657cc]" started-at="2024-05-21T23:30:10 IST" name="test3" finished-at="2024-05-21T23:30:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test3()[pri:1, instance:TestNG.TestNgKeywords@702657cc]" started-at="2024-05-21T23:30:10 IST" name="test3" finished-at="2024-05-21T23:30:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- TestNG.TestNgKeywords -->
+      <class name="testNgFacebookAccountCreate.FacebookLoginPageTest">
+        <test-method is-config="true" signature="openFacebook()[pri:0, instance:testNgFacebookAccountCreate.FacebookLoginPageTest@6a6cb05c]" started-at="2024-05-21T23:30:10 IST" name="openFacebook" finished-at="2024-05-21T23:30:13 IST" duration-ms="2623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebook -->
+        <test-method signature="loginTest()[pri:0, instance:testNgFacebookAccountCreate.FacebookLoginPageTest@6a6cb05c]" started-at="2024-05-21T23:30:13 IST" name="loginTest" finished-at="2024-05-21T23:30:13 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNgFacebookAccountCreate.FacebookLoginPageTest@6a6cb05c]" started-at="2024-05-21T23:30:13 IST" name="closeBrowser" finished-at="2024-05-21T23:30:13 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNgFacebookAccountCreate.FacebookLoginPageTest -->
+      <class name="TestNG.SwagLabLoginTest">
+        <test-method is-config="true" signature="openSwagLab()[pri:0, instance:TestNG.SwagLabLoginTest@7c7b252e]" started-at="2024-05-21T23:30:07 IST" name="openSwagLab" finished-at="2024-05-21T23:30:09 IST" duration-ms="2070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSwagLab -->
+        <test-method signature="loginWithlocked_out_user()[pri:0, instance:TestNG.SwagLabLoginTest@7c7b252e]" started-at="2024-05-21T23:30:09 IST" name="loginWithlocked_out_user" finished-at="2024-05-21T23:30:10 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithlocked_out_user -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.SwagLabLoginTest@7c7b252e]" started-at="2024-05-21T23:30:10 IST" name="close" finished-at="2024-05-21T23:30:10 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestNG.SwagLabLoginTest -->
+      <class name="testNGPersonalProject.FacebookLoginTest">
+        <test-method is-config="true" signature="runBrowser()[pri:0, instance:testNGPersonalProject.FacebookLoginTest@40a4337a]" started-at="2024-05-21T23:30:13 IST" name="runBrowser" finished-at="2024-05-21T23:30:15 IST" duration-ms="2162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBrowser -->
+        <test-method signature="testLogin()[pri:0, instance:testNGPersonalProject.FacebookLoginTest@40a4337a]" started-at="2024-05-21T23:30:15 IST" name="testLogin" finished-at="2024-05-21T23:30:15 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testNGPersonalProject.FacebookLoginTest@40a4337a]" started-at="2024-05-21T23:30:26 IST" name="close" finished-at="2024-05-21T23:30:27 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testNGPersonalProject.FacebookLoginTest -->
+      <class name="testNgFacebookAccountCreate.FacebookRagesterPageTest">
+        <test-method is-config="true" signature="openFacebook()[pri:0, instance:testNgFacebookAccountCreate.FacebookRagesterPageTest@22ff4249]" started-at="2024-05-21T23:30:04 IST" name="openFacebook" finished-at="2024-05-21T23:30:07 IST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebook -->
+        <test-method signature="loginTest()[pri:0, instance:testNgFacebookAccountCreate.FacebookRagesterPageTest@22ff4249]" started-at="2024-05-21T23:30:23 IST" name="loginTest" finished-at="2024-05-21T23:30:23 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="regesterTest()[pri:0, instance:testNgFacebookAccountCreate.FacebookRagesterPageTest@22ff4249]" started-at="2024-05-21T23:30:23 IST" name="regesterTest" finished-at="2024-05-21T23:30:26 IST" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regesterTest -->
+      </class> <!-- testNgFacebookAccountCreate.FacebookRagesterPageTest -->
+      <class name="TestNG.AddToCart">
+        <test-method is-config="true" signature="openSwagLab()[pri:0, instance:TestNG.AddToCart@6025e1b6]" started-at="2024-05-21T23:30:15 IST" name="openSwagLab" finished-at="2024-05-21T23:30:17 IST" duration-ms="1776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSwagLab -->
+        <test-method signature="AddtoCart()[pri:0, instance:TestNG.AddToCart@6025e1b6]" started-at="2024-05-21T23:30:17 IST" name="AddtoCart" finished-at="2024-05-21T23:30:23 IST" duration-ms="5707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.AddToCart@6025e1b6]" started-at="2024-05-21T23:30:23 IST" name="close" finished-at="2024-05-21T23:30:23 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestNG.AddToCart -->
+    </test> <!-- Personal projects -->
+    <test started-at="2024-05-21T23:30:27 IST" name="regression" finished-at="2024-05-21T23:30:36 IST" duration-ms="9632">
+      <class name="testNGPersonalProject.FacebookLoginTest">
+        <test-method is-config="true" signature="runBrowser()[pri:0, instance:testNGPersonalProject.FacebookLoginTest@77f1baf5]" started-at="2024-05-21T23:30:32 IST" name="runBrowser" finished-at="2024-05-21T23:30:36 IST" duration-ms="3640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBrowser -->
+        <test-method signature="testLogin()[pri:0, instance:testNGPersonalProject.FacebookLoginTest@77f1baf5]" started-at="2024-05-21T23:30:36 IST" name="testLogin" finished-at="2024-05-21T23:30:36 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testNGPersonalProject.FacebookLoginTest@77f1baf5]" started-at="2024-05-21T23:30:36 IST" name="close" finished-at="2024-05-21T23:30:36 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testNGPersonalProject.FacebookLoginTest -->
+      <class name="testNgFacebookAccountCreate.FacebookRagesterPageTest">
+        <test-method is-config="true" signature="openFacebook()[pri:0, instance:testNgFacebookAccountCreate.FacebookRagesterPageTest@7d20d0b]" started-at="2024-05-21T23:30:27 IST" name="openFacebook" finished-at="2024-05-21T23:30:29 IST" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebook -->
+        <test-method signature="loginTest()[pri:0, instance:testNgFacebookAccountCreate.FacebookRagesterPageTest@7d20d0b]" started-at="2024-05-21T23:30:29 IST" name="loginTest" finished-at="2024-05-21T23:30:29 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="regesterTest()[pri:0, instance:testNgFacebookAccountCreate.FacebookRagesterPageTest@7d20d0b]" started-at="2024-05-21T23:30:29 IST" name="regesterTest" finished-at="2024-05-21T23:30:32 IST" duration-ms="3038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regesterTest -->
+      </class> <!-- testNgFacebookAccountCreate.FacebookRagesterPageTest -->
+    </test> <!-- regression -->
+  </suite> <!-- Atomations -->
+</testng-results>
